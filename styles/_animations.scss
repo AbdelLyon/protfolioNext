@@ -1,0 +1,87 @@
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes size {
+  to {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+@keyframes translate-left {
+  from {
+    opacity: 0;
+    transform: translateX(-40rem);
+  }
+}
+
+@keyframes translate-down {
+  from {
+    transform: translateY(.5rem);
+  }
+}
+
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scaleX(-1)
+  }
+}
+
+
+@keyframes translate-up {
+  from {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  to {
+    visibility: visible;
+
+  }
+
+}
+
+@keyframes translate-up-modal {
+  from {
+    transform: translateY(-70rem);
+  }
+}
+
+@keyframes translate-down-modal {
+  from {
+    transform: translateY(0rem);
+  }
+
+  to {
+    transform: translateY(70rem);
+
+  }
+}
+
+@keyframes translate-down-finit {
+  from {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+}
+
+@keyframes height {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+
+  to {
+    height: 100%;
+  }
+}
